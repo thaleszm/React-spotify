@@ -1,0 +1,15 @@
+:root{
+    /* ------------ TIPO DE FONTE ------------ */
+    --font-dm-sans: "DM Sans", sans-serif;
+
+    /* ------------ CORES ------------ */
+    --bg-color: #000;
+    --bg-color-arrow: #131313;
+    --bg-color-arrow-opacity: rgba(0,0,0, .7);
+    --bg-color-search: #242424;
+    --bg-color-principal: #121212;
+    --bg-color-sidebar: #b3b3b3;
+    --bg-color-white: #ffffff;
+    --bg-color-subscribe: #a7a7a7;
+    --bg-color-artist-card: #181818;
+}

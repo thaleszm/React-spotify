@@ -1,0 +1,174 @@
+body{
+    background-color: var(--bg-color);
+    font-family: var(--font-dm-sans);
+}
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 300px;
+}
+.sidebar_navigation--logo{
+    background: var(--bg-color-principal);
+    display: flex;
+    border-radius: 8px;
+}
+.sidebar_navigation--logo img{
+    width: 80px;
+}
+.sidebar_navigation{
+    background-color: var(--bg-color-principal);
+    padding: 16px 0 0 16px;
+    border-radius: 8px;
+    width: 300px;
+}
+.sidebar_navigation ul{
+    list-style-type: none;
+    margin: 20px 0 0 0;
+    padding: 0 20px 10px 0;
+}
+.sidebar_navigation li{
+    padding: 8px 0;
+    margin: 0 0 0 8px;
+}
+.sidebar_navigation a{
+    text-decoration: none;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+}
+.text{
+    margin-left: 12px;
+}
+
+
+.library{
+    background-color: var(--bg-color-principal);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 4px 8px;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 12px;
+    margin: 164px 4px;
+    width: 300px;
+
+    position: fixed;
+
+}
+.library .library__content{
+    display: flex;
+    justify-content: space-between;
+}
+.library .library__button{
+    margin: 0 10px 0 0;
+    color: #b3b3b3;
+    background-color: transparent;
+    border: 0;
+    padding: 15px 10px;
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+}
+.library .fa-plus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    font-size: 18px;
+}
+.library__button .fa-book{
+    font-size: 20px;
+}
+
+.playlist{
+    background-color: #242424;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 8px 0;
+    padding: 16px 20px;
+    border-radius: 8px;
+}
+.playlist .text{
+    margin: 0;
+}
+.playlist .title{
+    font-weight: 700;
+}
+.playlist .diferente{
+    font-weight: 600;
+}
+.playlist .playlist__button{
+    display: flex;
+    justify-content: center;
+    color: var(--bg-color);
+    font-size: 12px;
+    border-radius: 20px;
+    border: 0;
+    font-weight: 700;
+    padding: 10px;
+    margin-top: 20px;
+    width: 113px;
+    cursor: pointer;
+}
+.Cookies{
+    margin: 25px 20px;
+}
+.Cookies a{
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+}
+.Cookies a:hover{
+    text-decoration: underline;
+}
+.languages .languages__button{
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    align-items: center;
+    cursor: pointer;
+    width: 170px;
+    margin: 8px;
+    font-weight: 700;
+}
+
+.footer{
+    background: linear-gradient(to right, #af15a4, #5f2bc5, #0bc5f6);
+    opacity: .8;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 0 30px;
+
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.footer__text h3{
+    text-transform: uppercase;
+}
+.footer__link{
+    color: var(--bg-color);
+    text-decoration: none;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 14px;
+    margin: 14px;
+}
